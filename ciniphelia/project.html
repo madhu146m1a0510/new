@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>
+</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+.topnav input[type=button] {
+  float: right;
+  padding: 8px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color:black;
+  font-size: 11px;
+}
+.topnav input[type=text] {
+  float: middle;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: solid;
+  font-size: 18px;
+}
+.topnav {
+   background-color: black;
+}
+.midnav{
+ margin-right: 20px;
+ margin-top: 10px;
+ font-size: 17px;
+ text-decoration:none;
+ position: absolute;
+ top: 200px;
+}
+.navbar-brand img{
+  height: 150px;
+  width: 150px;
+}
+.form-group{
+  margin-top: 40px;
+}
+
+</style>
+</head>
+<span class="navbar-brand">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2yNDte60MlCbVhzl9Fm86hACdpHEryVF2FF4EEgqj2Qf1WgoL">
+</span>
+       
+<ul class="nav navbar-nav navbar-right">
+            <li><a href="#" data-toggle="modal" data-target="#SignIn">SignIn</a></li>
+   
+        </ul>
+
+<form class="navbar-form navbar-left">
+      <div class="form-group">
+             <input type="text" class="form-control" size="50" placeholder="search here..." id="search" align="right"/>
+             <button type="submit" class="btn btn-info">
+                <span class="glyphicon glyphicon-search"></span>
+             Search</button>
+      </div>
+    </form>
+
+<div class="modal fade" id="SignIn" role="dialog">
+    <div class="modal-dialog">
+   
+     
+      <div class="modal-content">
+        <div class="modal-header">
+         <h1> welcome </h1>
+                  </div>
+        <div class="modal-body">
+        <form>
+            Enter Email:<br><input type="text" name="email" pattern=".+@gmail.com" required/><br>
+            Enter Password:<br><input type="password" name="pwd" pattern="[A-Za-z0-9]{8,16}" required/><br>
+            <button type="submit" class="btn btn-info">Login</button>
+        </form>
+        </div>
+        <div class="modal-footer">
+
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+<div class="midnav" style="text-decoration:none">
+    <a href="home.html" style="text-decoration:none">HOME</a>&nbsp;&nbsp;&nbsp;
+    <a href="cities.html" style="text-decoration:none">CITIES</a>&nbsp;&nbsp;&nbsp;
+    <a href="offers.html" style="text-decoration:none">OFFERS</a>&nbsp;&nbsp;&nbsp;
+    <a href="vochers.html" style="text-decoration:none">GIFT VOCHERS</a>&nbsp;&nbsp;&nbsp;
+    <a href="contact.html" style="text-decoration:none">CONTACT US</a>
+
+</div>
+</body>
+</html>
+
